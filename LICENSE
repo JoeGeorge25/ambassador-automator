@@ -1,0 +1,4 @@
+ambassador-automator/
+├── README.md ← overview, contributing, and license summary
+├── LICENSE ← full proprietary license text
+├── .gitignore
