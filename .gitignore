@@ -1,58 +1,65 @@
- # --- General ---
+ # --- Operating System Files ---
 .DS_Store
 Thumbs.db
+
+# --- Logs & Temp Files ---
 *.log
 *.tmp
 *.bak
 *.swp
+logs/
+tmp/
+__render__/
+.cache/
+coverage/
 
-# --- Python (FastAPI backend) ---
+# --- Python / FastAPI Backend ---
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.sqlite3
 env/
 venv/
 .venv/
 .env
+.env.*
 env.bak/
-.env.bak
-*.sqlite3
+instance/
+.mypy_cache/
+.pytest_cache/
+.tox/
+dist/
+build/
+.eggs/
+*.egg-info/
+*.egg
 
-# --- Node / React (frontend) ---
+# --- Node / React Frontend ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 dist/
 build/
-.cache/
 .next/
 out/
-coverage/
 *.local
 *.lock
 
-# --- Editor / IDE ---
+# --- IDE / Editor Configs ---
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# --- OS & Misc ---
-*.zip
-*.tar
-*.gz
-*.tgz
-*.bak
-*.orig
-
-# --- Render / Deployment ---
+# --- Deployment / Render ---
 /data/
 .render/
-__render__/
-logs/
-tmp/
+*.tar
+*.gz
+*.zip
+*.tgz
 secrets.json
 
 # --- MongoDB Dumps ---
@@ -61,8 +68,7 @@ dump/
 *.json
 *.csv
 
- 
- 
- 
-
+# --- OS Trash ---
+*.orig
+*.bak
  
